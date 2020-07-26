@@ -12,6 +12,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y python3-tk
 WORKDIR /
 
-# COPY requirements.txt ./requirements.txt
-# RUN pip3 install --no-cache-dir -r requirements.txt && rm requirements.txt
+COPY requirements.txt ./requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt && rm requirements.txt
 ENV LANG C.UTF-8
