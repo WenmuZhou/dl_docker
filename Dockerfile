@@ -5,7 +5,6 @@ RUN apt-get update \
 && apt install -y libglib2.0-0 libsm6 libxrender1 libxext-dev vim tmux htop \
 && apt-get install -y software-properties-common curl \
 && apt autoremove -y \
-&& apt-get update \
 && apt-get install -y python3 python3-dev python3-pip \
 && apt-get install -y build-essential
 ENV DEBIAN_FRONTEND=noninteractive
