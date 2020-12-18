@@ -2,7 +2,8 @@
 用于深度学习的docker
 
 ## 环境说明
-1. cuda10.2
-2. cudnn7
-3. torch 1.5.1
-4. torchvision 0.6
+1. Ubuntu20.04
+1. cuda11.1
+2. cudnn8
+3. torch
+4. torchvision
