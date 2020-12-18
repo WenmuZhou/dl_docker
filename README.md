@@ -3,7 +3,7 @@
 
 ## 环境说明
 1. Ubuntu 18.04
-1. cuda 10.2
-2. cudnn 8
-3. torch
-4. torchvision
+2. cuda 10.2
+3. cudnn 8
+4. torch
+5. torchvision
