@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.1-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04
 LABEL maintainer "zhoujun"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
